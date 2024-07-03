@@ -1,0 +1,23 @@
+{
+  "sourceType": "unambiguous",
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "defaults, not IE 11",
+        "useBuiltIns": "usage",
+        "corejs": "3.22",
+        "shippedProposals": true,
+        "modules": "auto"
+      }
+    ],
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
