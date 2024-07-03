@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/runtime": "^7.24.7",
     "@reduxjs/toolkit": "^1.9.7",
-    "@sentry/react": "8.4.0",
+    "@sentry/react": "8.5.0",
     "core-js": "^3.37.1",
     "cssnano": "^7.0.3",
     "react": "^17.0.2",
